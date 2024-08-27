@@ -1,0 +1,25 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+strong#fei{
+    color: blue;
+}   
+
+.content{
+    width: 500px;
+    height: 300px;
+    transition: width 0.5s, height 0.5s;
+    scroll-behavior: smooth;
+}
+
+ .content:hover{
+    width: 520px;
+    height: 320px;
+    transition: width 0.5s, height 0.5s;
+    scroll-behavior: smooth;
+}
+
+iframe.content{
+    border: 0;
+}
