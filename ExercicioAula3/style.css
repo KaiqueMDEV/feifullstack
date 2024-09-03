@@ -1,0 +1,65 @@
+*{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    top: 40px;
+    left: 40%;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+hr{
+    position: relative;
+    top: 20px;
+}
+
+main{
+    position: relative;
+    top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+table tr td{
+    padding: 20px;
+    border-style: solid ;
+    text-align: center;
+}
+
+table{
+    border-style: solid;
+    width: 1500px;
+    position: relative;
+    top: 10px;
+}
+
+iframe{
+    display: inline;
+    height: 300px;
+    width: 500px;
+    margin-top: 30px;
+
+}
+
+.cabeçalho{
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    top: 10px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.cabeca{
+   display: inline;
+   float: left;
+   padding: 10px;
+   border-style: solid;
+}
