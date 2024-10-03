@@ -3,13 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Adivinhação</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <input type="number" id="number">
-    <input type="button" id="button" value="Checar" onclick="checar()">
-    <div id="resposta"></div>
+    <div>
+       <input type="number" id="number">
+    </div>
+    <div id="conteudo">
+
+        <div>
+            <input type="button" id="button" value="Gerar" onclick="gerar()">
+        </div>
+
+        <div id="resposta"></div>
+        
+       <input type="button" id="button" value="Checar" onclick="checar()">
+       
+    </div>
 
 
-    <script scr="script.js" type="text/javascript"></script>
+
+    <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
