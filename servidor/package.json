@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.21.1"
+  },
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "meu primeiro servidor",
+  "main": "test command:",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaiqueMDEV/feifullstack.git"
+  },
+  "author": "Kaique Medeiros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaiqueMDEV/feifullstack/issues"
+  },
+  "homepage": "https://github.com/KaiqueMDEV/feifullstack#readme"
+}
